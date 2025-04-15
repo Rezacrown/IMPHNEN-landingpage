@@ -15,7 +15,7 @@ export default function Hero() {
             <span className="text-[#3b82f6]">Namun Enggan Ngoding?</span>
           </h1>
           <p className="text-xl text-slate-600">
-            IMPNEN solusinya! Belajar programming tanpa coding dengan metode
+            IMPHNEN solusinya! Belajar programming tanpa coding dengan metode
             unik kami.
           </p>
           <div className="flex gap-4">

@@ -6,7 +6,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-3xl font-extrabold bg-gradient-to-r from-[#3b82f6] to-[#1d4ed8] bg-clip-text text-transparent">
-          IMPNEN
+          IMPHNEN
         </h1>
         <nav className="hidden md:flex space-x-8">
           <Link
