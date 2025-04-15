@@ -18,7 +18,7 @@ export default function Community() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[450px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-max md:h-[450px]">
           {/* GitHub - Large Center Piece */}
           <motion.a
             href="https://github.com/IMPHNEN"
