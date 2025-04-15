@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: "/IMPNEN.jpeg",
   title: "IMPNEN - Ingin Menjadi Programer Handal Namun Enggan Ngoding",
   description: `
   Komunitas yempat dimana para sesepuh programing dari seluruh indonesia berkumpul
