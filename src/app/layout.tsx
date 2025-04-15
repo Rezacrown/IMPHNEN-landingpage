@@ -3,15 +3,15 @@ import { Geist, Geist_Mono, Comic_Neue } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 const comic_neue = Comic_Neue({
   variable: "--font-comic",
@@ -34,11 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          `${geistSans.variable} ${geistMono.variable} ${comic_neue.variable} antialiased`
-        )}
-      >
+      <body className={cn(`antialiased`, comic_neue.className)}>
         {children}
       </body>
     </html>
