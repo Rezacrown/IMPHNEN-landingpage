@@ -81,6 +81,7 @@ export default function Faq() {
           return (
             <motion.div
               key={`bubble-${i}`}
+              suppressHydrationWarning
               className="absolute rounded-full opacity-70"
               style={{
                 width: `${size}px`,
@@ -121,6 +122,7 @@ export default function Faq() {
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
+              suppressHydrationWarning
               className="border-2 border-[#90CDF4] rounded-xl overflow-hidden bg-white/90 backdrop-blur-sm"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
